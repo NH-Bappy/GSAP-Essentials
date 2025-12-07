@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /* overflow-x: hidden; */
+}
+
+/* #page1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(207, 207, 135);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(99, 194, 201);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
+
+
+#page3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(203, 176, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+h2{
+    font-size: 50px;
+    color: rgb(192, 62, 69);
+} */
+
+/* ==========================SECOND EXAMPLE================== */
+#page1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(207, 207, 135);
+}
+#page2 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(99, 194, 201);
+    padding: 5vw 0;
+    overflow: hidden;
+    /* Fix text overflow */
+}
+
+#page3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(203, 176, 233);
+}
+
+#page2 h2{
+    font-size: 30vw;
+    font-weight: 600;
+    white-space: nowrap;
+    /* transform: translate(-100%); */
+}
