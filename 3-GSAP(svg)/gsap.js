@@ -40,3 +40,4 @@ string.addEventListener("mouseleave" , () => {
     })
 })
 
+// if you went to know this type of animation go to[svg path curve[MDN-website]]
