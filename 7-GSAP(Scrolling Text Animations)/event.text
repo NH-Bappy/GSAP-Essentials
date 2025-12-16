@@ -1,0 +1,94 @@
+================================Mouse Events
+
+event = click,
+    dblclick,
+    mousedown,
+    mouseup,
+    mousemove,
+    mouseenter,
+    mouseleave,
+    mouseover,
+    mouseout,
+    contextmenu,
+    wheel
+
+=============================Keyboard Events
+event = keydown,
+keyup,
+keypress
+
+
+
+
+=============================Form / Input Events
+event = input,
+change,
+submit,
+reset,
+focus,
+blur,
+focusin,
+focusout
+
+
+
+===============================Touch Events (Mobile)
+event = touchstart,
+touchmove,
+touchend,
+touchcancel
+
+
+================================Window / Document Events
+event = load,
+DOMContentLoaded,
+resize,
+scroll,
+beforeunload,
+unload
+
+
+================================Media Events (Audio / Video)
+event = play,
+pause,
+ended,
+volumechange,
+timeupdate,
+loadeddata,
+canplay
+
+
+=================================Drag & Drop Events
+event = drag,
+dragstart,
+dragend,
+dragenter,
+dragover,
+dragleave,
+drop
+
+
+==================================Clipboard Events
+event = copy,
+cut,
+paste
+
+
+==================================Animation / Transition Events
+event = animationstart,
+animationend,
+animationiteration,
+transitionstart,
+transitionend
+
+===================================Pointer Events (Modern)
+event = pointerdown,
+pointerup,
+pointermove,
+pointerenter,
+pointerleave,
+pointercancel
+
+===================================== Error Events
+event = error,
+abort
